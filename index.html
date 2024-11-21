@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ondas Eletromagnéticas</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f4f8;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        div {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            text-align: center;
+            color: #004d7a;
+        }
+        p {
+            text-align: justify;
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .button-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+        button {
+            width: 45%;
+            margin: 10px;
+            padding: 15px;
+            font-size: 1.1em;
+            color: #ffffff;
+            background-color: #004d7a;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        button:hover {
+            background-color: #003b5c;
+            transform: translateY(-2px);
+        }
+        .spectrum-table {
+            width: 100%;
+            margin-top: 30px;
+            border-collapse: collapse;
+        }
+        .spectrum-table th, .spectrum-table td {
+            padding: 15px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        .spectrum-table th {
+            background-color: #004d7a;
+            color: white;
+            font-size: 1.2em;
+        }
+        .spectrum-table td a {
+            color: #004d7a;
+            text-decoration: none;
+        }
+        .spectrum-table td a:hover {
+            text-decoration: underline;
+        }
+        .radio { background-color: #a7c6e4; }
+        .micro { background-color: #b9d9e6; }
+        .infravermelho { background-color: #f8d6b3; }
+        .luz { background-color: #f0f4f8; }
+        .ultravioleta { background-color: #d0c6e1; }
+        .raio-x { background-color: #f1c4d7; }
+        .gama { background-color: #c8a6e1; }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Ondas Eletromagnéticas</h1>
+        <p><strong>Frequência:</strong> Número de oscilações por segundo, medida em Hertz (Hz).</p>
+        <p><strong>Comprimento de Onda:</strong> Distância entre dois picos consecutivos de uma onda.</p>
+        <p><strong>Velocidade:</strong> No vácuo, todas as ondas eletromagnéticas viajam à velocidade da luz (aproximadamente 300.000 km/s).</p>
+        <p><strong>Espectro Eletromagnético:</strong> Engloba todos os tipos de ondas eletromagnéticas, organizadas por frequência e comprimento de onda.</p>
+       
+        <table class="spectrum-table">
+            <tr>
+                <th>Ondas</th>
+                <th>Comprimento de Onda</th>
+                <th>Frequência</th>
+                <th>Ionizante?</th>
+                <th>Mais Informações</th>
+            </tr>
+            <tr class="radio">
+                <td>Ondas de Rádio</td>
+                <td>Maior que 1m</td>
+                <td>Menor que 300 MHz</td>
+                <td>Não</td>
+                <td><a href="radio.html">📻 Saiba mais</a></td>
+            </tr>
+            <tr class="micro">
+                <td>Micro-ondas</td>
+                <td>1mm - 1m</td>
+                <td>300 MHz - 300 GHz</td>
+                <td>Não</td>
+                <td><a href="microondas.html">📡 Saiba mais</a></td>
+            </tr>
+            <tr class="infravermelho">
+                <td>Infravermelho</td>
+                <td>700 nm - 1mm</td>
+                <td>300 GHz - 400 THz</td>
+                <td>Não</td>
+                <td><a href="infravermelho.html">🔥 Saiba mais</a></td>
+            </tr>
+            <tr class="luz">
+                <td>Luz Visível</td>
+                <td>400 nm - 700 nm</td>
+                <td>430 THz - 750 THz</td>
+                <td>Não</td>
+                <td><a href="luz_visivel.html">💡 Saiba mais</a></td>
+            </tr>
+            <tr class="ultravioleta">
+                <td>Ultravioleta</td>
+                <td>10 nm - 400 nm</td>
+                <td>750 THz - 30 PHz</td>
+                <td>Sim</td>
+                <td><a href="ultravioleta.html">☀️ Saiba mais</a></td>
+            </tr>
+            <tr class="raio-x">
+                <td>Raio-X</td>
+                <td>0.01 nm - 10 nm</td>
+                <td>30 PHz - 30 EHz</td>
+                <td>Sim</td>
+                <td><a href="raio_x.html">📷 Saiba mais</a></td>
+            </tr>
+            <tr class="gama">
+                <td>Raios Gama</td>
+                <td>Menor que 0.01 nm</td>
+                <td>Maior que 30 EHz</td>
+                <td>Sim</td>
+                <td><a href="gama.html">⚛️ Saiba mais</a></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
+
+ 
+ 

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luz Visível</title>
+    <style>
+        body { 
+            font-family: 'Arial', sans-serif; 
+            background-color: #c2ffff; 
+            color: #333; 
+            margin: 0; 
+            padding: 0; 
+            animation: backgroundChange 10s infinite alternate; 
+        }
+        @keyframes backgroundChange { 
+            0% { background-color: #d81b60; } 
+            10% { background-color: #ff5722; } 
+            20% { background-color: #ffc107; } 
+            30% { background-color: #4caf50; } 
+            40% { background-color: #2196f3; } 
+            50% { background-color: #ff6f00; } 
+            60% { background-color: #c51162; } 
+            70% { background-color: #00bcd4; } 
+            80% { background-color: #8e24aa; } 
+            90% { background-color: #ff8f00; } 
+            100% { background-color: #d50000; }
+        }
+        div { 
+            max-width: 800px; 
+            margin: 40px auto; 
+            padding: 20px; 
+            border-radius: 10px; 
+            background-color: #fff; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+            text-align: center; 
+        }
+        h1 { 
+            font-size: 3em; 
+            color: #d81b60; 
+            animation: titleColorChange 10s infinite alternate; 
+        }
+        @keyframes titleColorChange { 
+            0% { color: #d81b60; } 
+            10% { color: #ff5722; } 
+            20% { color: #ffc107; } 
+            30% { color: #4caf50; } 
+            40% { color: #2196f3; } 
+            50% { color: #ff6f00; } 
+            60% { color: #c51162; } 
+            70% { color: #00bcd4; } 
+            80% { color: #8e24aa; } 
+            90% { color: #ff8f00; } 
+            100% { color: #d50000; }
+        }
+        p { 
+            text-align: justify; 
+            font-size: 1.1em; 
+            line-height: 1.6; 
+            margin-bottom: 20px; 
+        }
+        .button-container { 
+            display: flex; 
+            justify-content: center;
+            margin-top: 30px; 
+        }
+        button { 
+            padding: 15px 25px; 
+            font-size: 1.1em; 
+            color: #fff; 
+            background-color: #d81b60; 
+            border: none; 
+            border-radius: 5px; 
+            cursor: pointer; 
+            transition: background-color 0.3s, transform 0.3s, color 0.3s; 
+            animation: buttonColorChange 10s infinite alternate; 
+        }
+        @keyframes buttonColorChange { 
+            0% { background-color: #d81b60; } 
+            10% { background-color: #ff5722; } 
+            20% { background-color: #ffc107; } 
+            30% { background-color: #4caf50; } 
+            40% { background-color: #2196f3; } 
+            50% { background-color: #ff6f00; } 
+            60% { background-color: #c51162; } 
+            70% { background-color: #00bcd4; } 
+            80% { background-color: #8e24aa; } 
+            90% { background-color: #ff8f00; } 
+            100% { background-color: #d50000; }
+        }
+        button:hover { 
+            transform: translateY(-2px); 
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Luz Visível</h1>
+        <p><strong>Frequência:</strong> 430 THz a 770 THz.</p>
+        <p><strong>Comprimento de Onda:</strong> 380 nm a 700 nm.</p>
+        <p><strong>Aplicações:</strong> Usada em iluminação, fotografia, óptica e displays.</p>
+        <p><strong>Propriedades:</strong> Dividida em cores de acordo com o comprimento de onda (do violeta ao vermelho).</p>
+        <img src="ondas/visivel.png">
+        <div class="button-container">
+            <button onclick="window.location.href='index.html'">Voltar para o Índice</button>
+        </div>
+    </div>
+</body>
+</html>
+
